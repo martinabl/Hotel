@@ -4,9 +4,7 @@ public class Guest {
     private String firstName;
     private String lastName;
     private LocalDate birthday;
-    private int room;
-    private boolean vacationtype;
-    private int booking;
+
 
     public Guest(String firstName, String lastName, LocalDate birthday) {
         this.firstName = firstName;
@@ -14,5 +12,27 @@ public class Guest {
         this.birthday = birthday;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
 
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public LocalDate getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
+    }
 }
