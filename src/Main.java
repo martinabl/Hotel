@@ -9,9 +9,9 @@ public class Main {
 
         Guest guestSecond = new Guest("Jan","Dvořáček",LocalDate.of(1995,5,5));
 
-        System.out.println("First name:" + guestFirst.getFirstName()+"Last name:" + guestFirst.getLastName()+", Birthday:" + guestFirst.getBirthday());
+        System.out.println("Křestní jméno:" + guestFirst.getFirstName()+ "Příjmení:" + guestFirst.getLastName()+", Datum narození:" + guestFirst.getBirthday());
 
-        System.out.println("First name:" + guestSecond.getFirstName()+"Last name:" + guestSecond.getLastName()+", Birthday:" + guestSecond.getBirthday());
+        System.out.println("Křestní jméno:" + guestSecond.getFirstName()+ "Příjmení:" + guestSecond.getLastName()+", Datum narození:" + guestSecond.getBirthday());
 
 
     }

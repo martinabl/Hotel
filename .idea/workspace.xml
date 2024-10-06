@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87562fea-98ad-4997-9a5b-c8f714cd1794" name="Changes" comment="Změny&#10;&#10;vytvoření konstruktorů">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Guest.java" afterDir="false" />
+    <list default="true" id="87562fea-98ad-4997-9a5b-c8f714cd1794" name="Changes" comment="Výpis jmen a datumu&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,12 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728226155061</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Výpis jmen a datumu&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager">
+      <option name="closed" value="true" />
+      <created>1728227047321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728227047321</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Změny&#10;&#10;vytvoření jmen a datumu narození, konstruktorů" />
     <MESSAGE value="Změny&#10;&#10;vytvoření konstruktorů" />
-    <option name="LAST_COMMIT_MESSAGE" value="Změny&#10;&#10;vytvoření konstruktorů" />
+    <MESSAGE value="Výpis jmen a datumu&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Výpis jmen a datumu&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager" />
   </component>
 </project>
