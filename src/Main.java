@@ -5,18 +5,10 @@ public class Main {
 
         //System.out.println("Hello world!");//
 
-        Guest guest = new Guest();
-        guest.setName("Adéla Malíková");
-        System.out.println(guest.getName());
+        Guest guestFirst = new Guest("Adéla","Malíková",LocalDate.of(1993,3,13));
 
-        guest.setBirthday("1993, 3, 13");
-        System.out.println(guest.getBirthday());
 
-        guest.setName("Jan Dvořáček");
-        System.out.println(guest.getName());
 
-        guest.setBirthday("1995, 5, 5");
-        System.out.println(guest.getBirthday());
     }
 
 }
