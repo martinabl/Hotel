@@ -14,6 +14,14 @@ public class Main {
 
         guestSecond.setBirthday(LocalDate.of(1995,4,5));
         System.out.println(guestSecond.getBirthday());
+
+        BookingManager bookingManagerFirstRoom = new BookingManager(1);
+        System.out.println("room:" + bookingManagerFirstRoom.getRoom());
+        BookingManager bookingManagerSecondRoom = new BookingManager(2);
+        System.out.println("room:" + bookingManagerSecondRoom.getRoom());
+        BookingManager bookingManagerThirdRoom = new BookingManager(3);
+        System.out.println("room:" + bookingManagerThirdRoom.getRoom());
+
     }
 
 }
