@@ -1,27 +1,58 @@
+import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+        Guest adela = new Guest("Adéla","Malíková",LocalDate.of(1993,3,13));
 
-        //System.out.println("Hello world!");//
+        Guest jan = new Guest("Jan","Dvořáček",LocalDate.of(1995,5,5));
 
-        Guest guestFirst = new Guest("Adéla","Malíková",LocalDate.of(1993,3,13));
+        System.out.println("Křestní jméno:" + adela.getFirstName()+ ", Příjmení: " + adela.getLastName()+", Datum narození: " + adela.getBirthday());
+        System.out.println("Křestní jméno:" + jan.getFirstName()+ ", Příjmení: " + jan.getLastName()+", Datum narození: " + jan.getBirthday());
 
-        Guest guestSecond = new Guest("Jan","Dvořáček",LocalDate.of(1995,5,5));
+        jan.setBirthday(LocalDate.of(1995,4,5));
+        System.out.println(jan.getBirthday());
 
-        System.out.println("Křestní jméno:" + guestFirst.getFirstName()+ ", Příjmení: " + guestFirst.getLastName()+", Datum narození: " + guestFirst.getBirthday());
-        System.out.println("Křestní jméno:" + guestSecond.getFirstName()+ ", Příjmení: " + guestSecond.getLastName()+", Datum narození: " + guestSecond.getBirthday());
+        Room firstRoom = new Room(1,1,true, true, new BigDecimal("1000"));
+        Room secondRoom = new Room(2,1, true, true, new BigDecimal("1000"));
+        Room thirdRoom = new Room(3,3, false, true, new BigDecimal("2400"));
 
-        guestSecond.setBirthday(LocalDate.of(1995,4,5));
-        System.out.println(guestSecond.getBirthday());
+        System.out.println("Pokoj číslo: " + 1);
+        System.out.println("Kapacita: " + 1);
+        System.out.println("Cena za noc: " + 1100 + " Kč");
+        System.out.println("Má balkón: " + ("Ano"));
+        System.out.println("Výhled na moře: " + ("Ano"));
 
-        BookingManager bookingManagerFirstRoom = new BookingManager(1);
-        System.out.println("room:" + bookingManagerFirstRoom.getRoom());
-        BookingManager bookingManagerSecondRoom = new BookingManager(2);
-        System.out.println("room:" + bookingManagerSecondRoom.getRoom());
-        BookingManager bookingManagerThirdRoom = new BookingManager(3);
-        System.out.println("room:" + bookingManagerThirdRoom.getRoom());
+        System.out.println("Pokoj číslo: " + 2);
+        System.out.println("Kapacita: " + 1);
+        System.out.println("Cena za noc: " + 1100 + " Kč");
+        System.out.println("Má balkón: " + ("Ano"));
+        System.out.println("Výhled na moře: " + ("Ano"));
+
+        System.out.println("Pokoj číslo: " + 3);
+        System.out.println("Kapacita: " + 3);
+        System.out.println("Cena za noc: " + 2400 + " Kč");
+        System.out.println("Má balkón: " + ("Ne"));
+        System.out.println("Výhled na moře: " + ("Ano"));
+
+
+        BookingManager booking1 = new BookingManager(adela, firstRoom, LocalDate.of(2021, 7, 19), LocalDate.of(2021, 7, 26), false);
+        BookingManager booking2 = new BookingManager(adela, thirdRoom, LocalDate.of(2021, 9, 1), LocalDate.of(2021, 9, 14), false);
+        booking2.addOtherGuest(jan);
+
+        List<BookingManager> bookingManagerList = new ArrayList<>();
+        bookingManagerList.add(booking1);
+        bookingManagerList.add(booking2);
+
+        System.out.println("Výpis všech rezervací v systému:");
+        for (BookingManager bookingManager : bookingManagerList) {
+            System.out.println(bookingManager.getBookingDescription());
+        }
+
 
     }
+
 
 }

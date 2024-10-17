@@ -35,4 +35,8 @@ public class Guest {
     public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
     }
+
+    public String getDescription() {
+        return firstName + " " + lastName + " (" + birthday+ ")";
+    }
 }
