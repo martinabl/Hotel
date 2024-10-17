@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87562fea-98ad-4997-9a5b-c8f714cd1794" name="Changes" comment="Výpis jmen a datumu - přejmenování&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager">
-      <change afterPath="$PROJECT_DIR$/src/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BookingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Guest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="87562fea-98ad-4997-9a5b-c8f714cd1794" name="Changes" comment="Konečná verze Dú2&#10;&#10;dokončený úkol č.2, všechny chyby vyřešeny a úkol je hotov stejně jako je v řešení úkolu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +32,9 @@
     &quot;accountId&quot;: &quot;ed7174cf-dd81-4f2d-b6a4-fa3247cbe05e&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -98,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728227691438</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Konečná verze Dú2&#10;&#10;dokončený úkol č.2, všechny chyby vyřešeny a úkol je hotov stejně jako je v řešení úkolu">
+      <option name="closed" value="true" />
+      <created>1729182295792</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729182295792</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,6 +110,7 @@
     <MESSAGE value="Změny&#10;&#10;vytvoření konstruktorů" />
     <MESSAGE value="Výpis jmen a datumu&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager" />
     <MESSAGE value="Výpis jmen a datumu - přejmenování&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Výpis jmen a datumu - přejmenování&#10;&#10;výpis jmen a datumu u hostů + upravení třídy BookingManager" />
+    <MESSAGE value="Konečná verze Dú2&#10;&#10;dokončený úkol č.2, všechny chyby vyřešeny a úkol je hotov stejně jako je v řešení úkolu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Konečná verze Dú2&#10;&#10;dokončený úkol č.2, všechny chyby vyřešeny a úkol je hotov stejně jako je v řešení úkolu" />
   </component>
 </project>

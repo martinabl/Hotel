@@ -38,17 +38,17 @@ public class Main {
         System.out.println("Výhled na moře: " + ("Ano"));
 
 
-        BookingManager booking1 = new BookingManager(adela, firstRoom, LocalDate.of(2021, 7, 19), LocalDate.of(2021, 7, 26), false);
-        BookingManager booking2 = new BookingManager(adela, thirdRoom, LocalDate.of(2021, 9, 1), LocalDate.of(2021, 9, 14), false);
+        Booking booking1 = new Booking(adela, firstRoom, LocalDate.of(2021, 7, 19), LocalDate.of(2021, 7, 26), false);
+        Booking booking2 = new Booking(adela, thirdRoom, LocalDate.of(2021, 9, 1), LocalDate.of(2021, 9, 14), false);
         booking2.addOtherGuest(jan);
 
-        List<BookingManager> bookingManagerList = new ArrayList<>();
-        bookingManagerList.add(booking1);
-        bookingManagerList.add(booking2);
+        List<Booking> bookingList = new ArrayList<>();
+        bookingList.add(booking1);
+        bookingList.add(booking2);
 
         System.out.println("Výpis všech rezervací v systému:");
-        for (BookingManager bookingManager : bookingManagerList) {
-            System.out.println(bookingManager.getBookingDescription());
+        for (Booking booking : bookingList) {
+            System.out.println(booking.getBookingDescription());
         }
 
 

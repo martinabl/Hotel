@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BookingManager {
+public class Booking {
     private Guest guest;
     private Room room;
     private LocalDate checkIn;
@@ -11,7 +11,7 @@ public class BookingManager {
     private boolean isWorkingStay;
 
 
-    public BookingManager(Guest guest, Room room, LocalDate checkIn, LocalDate checkout, boolean isWorkingStay) {
+    public Booking(Guest guest, Room room, LocalDate checkIn, LocalDate checkout, boolean isWorkingStay) {
         this.guest = guest;
         this.room = room;
         this.checkIn = checkIn;
